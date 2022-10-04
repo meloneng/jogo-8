@@ -9,4 +9,10 @@ removendo então o estado na frente da filha. O processo segue até ser encontra
 o estado final.
 
 Busca por profundidade:
-    É criada uma pilha onde primeiro é inserido o estado inicial
+    É criada uma lista onde primeiro é inserido o estado inicial, depois, o estado
+inicial é expandido como na busca por largura e os estados gerados são colocados
+no topo de uma pilha, então é removida da estrutura o estado pai e os estados
+gerados são retirados da pilha e colocados na lista, seguindo ordem de remoção
+da pilha (o último a ser inserido na pilha será o primeiro da lista).
+
+
