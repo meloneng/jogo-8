@@ -1,0 +1,12 @@
+Jogo dos 8:
+
+
+Busca por largura:
+    É criada uma fila onde é inicialmente inserido o estado inicial do jogo, então,
+sobre este estado são gerados novos estados que são os possíveis movimentos a 
+partir daquele estado inicial, esses estados são então inseridos ao final da fila,
+removendo então o estado na frente da filha. O processo segue até ser encontrado
+o estado final.
+
+Busca por profundidade:
+    É criada uma pilha onde primeiro é inserido o estado inicial
